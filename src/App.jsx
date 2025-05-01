@@ -1,10 +1,15 @@
-
-import { createRoot } from 'react-dom/client'
-import './index.css'
+import Todo from "./Components/Todo"
 
 
-createRoot(document.getElementById('root')).render(
+const App = () => {
 
-  <Header/>
 
-)
+
+  return (
+    <div>
+      <Todo/>
+    </div>
+  )
+}
+
+export default App

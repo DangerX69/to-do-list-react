@@ -1,0 +1,30 @@
+.image{
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid black; */
+}
+
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+    /* border: 1px solid red; */
+
+
+}
+.todoitems-container{
+    display: flex ;
+}
+
+.todoitems-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px ;
+}
+
+
+.cross{
+    cursor: pointer;
+    padding-right:25px ;
+}
