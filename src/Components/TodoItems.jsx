@@ -6,8 +6,9 @@ import empty from './Assets/empty.png'
 
 const TodoItems = ({no, display, text, setTodos}) => {
 
-  function toggleTick(no){
+  const toggleTick = (no) =>{
     let data = JSON.parse(localStorage.getItem("todos-data"))
+    console.log(data);
     for (let index = 0; index < data.length; index++) {
       
       if(data[index].no === no){
